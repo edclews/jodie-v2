@@ -49,12 +49,6 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-source-instagram',
-      options: {
-        username: `6773082462`, // `donaflor.music - see https://github.com/dbertella/dona-flor/blob/master/gatsby-config.js`,
-      },
-    },
-    {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
         trackingId: config.googleAnalyticsID,
